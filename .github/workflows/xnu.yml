@@ -39,8 +39,7 @@ jobs:
         runs-on: macos-13
     timeout-minutes: 120
     steps:
-      - uses: actions/checkout@v4
-
+      - uses: actions/checkout
       - name: Fetch build script
         run: |
           git init -q dxb
